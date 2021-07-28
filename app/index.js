@@ -1,17 +1,16 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import './index.css'
+import Popular from './components/Popular'
 
 
 class App extends React.Component {
   render() {
-
     const name = 'Jason'
     return (
-      <React.Fragment>
-        <h1>👋 Hello {name}!</h1>
-        <p>Today is {new Date().toLocaleString()}</p>
-      </React.Fragment>
+      <div className='container'>
+        <Popular />
+      </div>
     )
   }
 }
