@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default class Hover  extends React.Component{
+export default class Hover extends React.Component{
   constructor(props) {
     super(props)
 
@@ -23,7 +23,6 @@ export default class Hover  extends React.Component{
   }
 
   render() {
-
     return (
       <div
         onMouseOver = {this.mouseOver }
